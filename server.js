@@ -8,6 +8,7 @@ import logger from "./middleware/logger.js"
 import router from "./views/router.js"
 import mongoSanitize from 'express-mongo-sanitize';
 import errorHandler from "./middleware/errorHandler.js";
+import { port } from './config/environment'
 
 
 // ! Moved the app out of startServer so I can export it below
@@ -31,7 +32,7 @@ async function startServer() {
 
     console.log('Connected to DB!')
 
-    app.listen(4000, () => console.log("🤖 Hello express!"))
+    app.listen(port, () => console.log("🤖 Hello express!"))
   } catch (e) {
     await disconnectDb()
   }
