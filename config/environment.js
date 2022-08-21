@@ -11,5 +11,3 @@ export const port = process.env.PORT || 4000
 
 // ! Create a secret for JWT verification
 export const secret = process.env.SECRET || 'horsebatterycowstapleapple'
-
-// hei

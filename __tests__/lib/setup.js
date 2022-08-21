@@ -95,7 +95,7 @@ export default async function setup(done) {
       },
       {
         name: "",
-        commonName: "Peace lily",
+        commonName: "Peace Lily",
         about: "As you may have guessed from its love of steamy conditions, the peace lily is native to tropical rainforests, specifically those of South and Central America. It's thought it was brought to Europe some time in the late 1800s and it's adapted well to the UK's less than tropical conditions.",
         likes: "Light watering, most light conditions, humidity",
         size: "Medium",
