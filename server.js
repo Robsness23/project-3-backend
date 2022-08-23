@@ -9,7 +9,7 @@ import router from "./views/router.js"
 import mongoSanitize from 'express-mongo-sanitize';
 import errorHandler from "./middleware/errorHandler.js";
 import { port } from './config/environment.js'
-import { config } from "dotenv"
+// import { config } from "dotenv"
 
 
 // ! Moved the app out of startServer so I can export it below
